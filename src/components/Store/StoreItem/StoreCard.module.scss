@@ -1,0 +1,36 @@
+@import "../../../assets/styles/variables/global.scss";
+.item_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  font-size: var(--font-size);
+
+  border: 1px solid var(--items-border-color);
+
+  max-height: 300px;
+  max-width: 249px;
+
+  padding: 29px 11px 15px 11px;
+}
+
+.item_image {
+  margin-bottom: 43px;
+  cursor: pointer;
+}
+
+.price_values {
+  display: flex;
+  align-items: center;
+}
+
+.item_name {
+  margin-bottom: 13px;
+
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.store_button {
+  margin-right: 15px;
+}

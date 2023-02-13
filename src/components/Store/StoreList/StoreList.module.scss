@@ -1,0 +1,21 @@
+.h1 {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  padding: 60px 150px 0 150px;
+  gap: 70px;
+
+  @media screen and (max-width: 1320px) {
+    padding: 60px 100px 0 100px;
+  }
+
+  @media screend and (max-width: 768px) {
+    padding: 141px 100px 0 100px;
+  }
+}

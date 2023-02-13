@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  height: 100%;
+  align-items: flex-start;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 120px;
+  }
+}

@@ -1,0 +1,9 @@
+@import "reset";
+@import "./variables/global";
+
+.App {
+    font-family: var(--font-family);
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 87px 1fr;
+}

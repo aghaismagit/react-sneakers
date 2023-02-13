@@ -1,0 +1,22 @@
+.button {
+  padding: 5px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+
+  color: var(--white);
+}
+
+.primary {
+  padding: 8px;
+  background-color: var(--primary-color);
+  border-radius: 3px;
+}
+
+.primary:hover {
+  background-color: var(--primary-color-darken);
+}

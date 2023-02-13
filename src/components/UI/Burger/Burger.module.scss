@@ -1,0 +1,14 @@
+.header_burger span {
+  display: none;
+
+  @media screen and (max-width: 960px) {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: var(--black);
+    border-radius: 3px;
+  }
+}

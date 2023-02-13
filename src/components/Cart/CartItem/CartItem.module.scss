@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  height: 100px;
+  width: 100%;
+
+  margin-bottom: 10px;
+}
+
+.item_image {
+  width: 90px;
+  height: 51px;
+
+  margin-right: 10px;
+}
+
+.item_values {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: 202px;
+}
+
+.counter_settings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+
+.item_name {
+  margin-bottom: 10px;
+}
+
+.delete_button {
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+}

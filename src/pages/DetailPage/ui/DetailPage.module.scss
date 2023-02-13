@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  height: 100%;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 50px; 
+  }
+}
+
+.item_wrapper {
+  padding-top: 90px;
+  margin: 0 auto;
+
+}
+
+.main_image {
+  width: 890px;
+  height: 510px;
+  margin: 20px 0;
+  border: 1px solid var(--main-border-color);
+
+  @media screen and (max-width: 1200px) {
+    width: 570px;
+    height: 325px;
+  }
+
+  @media screen and (max-width: 580px) {
+    width: 330px;
+    height: 190px;
+  }
+}
+
+.price_values {
+  display: flex;
+  align-items: center;
+}
+
+.item_name {
+  margin-bottom: 20px;
+}
+
+.return_button {
+  padding: 8px 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.addButton {
+  margin-left: 15px;
+}
